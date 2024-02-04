@@ -22,6 +22,7 @@ h1 {
     text-align: center;
     background-color: rgb(64, 59, 59);
     margin: 0 10px 0 10px;
+    
 }
 
 #navbar ul {
@@ -61,21 +62,20 @@ li a:hover {
     height: 100px;
 }
 
-#greatestHits {
+.content {
     margin: 7px 0 10px 0;
     background-color: rgb(64, 59, 59);
     padding: 20px;
-    display: inline-block;
+    justify-content: center;
 }
 
 .videoPair {
     display: inline-flex;
     margin: 0 0 15px 0;
-    width: 100%;
     align-items: center;
 }
 
-#greatestHits iframe {
+.content iframe {
     margin: 0;
 }
 
@@ -96,7 +96,52 @@ li a:hover {
     border-color: black;
 }
 
-#music {
-    margin: 7px 0 10px 0;
+#albumImg {
+    background-image: url("../resources/rebirth.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 15px 0 0;
+    width: 500px;
+    height: 500px;
+}
+
+#tracklist {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#tracklist table, tr, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: rgb(109, 109, 109);
+}
+
+.song {
+    width: 500px;
+}
+
+#player {
+    display: flex;
+    margin: 10px 20% 10px 20%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(109, 109, 109);
+}
+
+#player-iframe {
+    margin: 10px;
+}
+#player select {
+    text-align: center;
+    font-size: large;
+    color: white;
     background-color: rgb(64, 59, 59);
-    padding: 20px; }
+    border: 3px black solid;
+}
+
+#player option:hover {
+    color: gold;
+}
