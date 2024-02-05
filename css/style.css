@@ -13,14 +13,14 @@ h1 {
 }
 
 #container {
-    background-color: rgb(39, 36, 36);
+    background-color: #272424;
     padding: 10px;
     margin: auto;
 }
 
 #navbar {
     text-align: center;
-    background-color: rgb(51, 48, 48);
+    background-color: #333030;
     margin: 0 10px 0 10px;
     
 }
